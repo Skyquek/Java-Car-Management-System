@@ -7,6 +7,4 @@ public class Car
 	int capacity;
 	boolean isAuto;
 	boolean isUsable;
-	
-	
 }
