@@ -7,31 +7,31 @@ public class CarRentalManagementSystem
 		
 		//Java will auto initialized a constructor if we not declare
 		Car car1 = new Car();
-		car1.carID = 1001;
-		car1.plateNo = "ABC T11";
-		car1.model = "Proton";
-		car1.price = 5;
-		car1.capacity = 4;
-		car1.isAuto = false;
-		car1.isUsable = true;
+		car1.setCarID(1001);
+		car1.setPlateNo("ABC T11");
+		car1.setModel("Proton");
+		car1.setPrice(5);
+		car1.setCapacity(4);
+		car1.setAuto(false);
+		car1.setUsable(true);
 		
 		Car car2 = new Car();
-		car2.carID = 1002;
-		car2.plateNo = "ABC T12";
-		car2.model = "Honda";
-		car2.price = 10;
-		car2.capacity = 4;
-		car2.isAuto = true;
-		car2.isUsable = true;
+		car2.setCarID(1002);
+		car2.setPlateNo("ABC T12");
+		car2.setModel("Honda");
+		car2.setPrice(10);
+		car2.setCapacity(4);
+		car2.setAuto(true);
+		car2.setUsable(true);
 		
 		Car car3 = new Car();
-		car3.carID = 1003;
-		car3.plateNo = "ABC T13";
-		car3.model = "Nissan";
-		car3.price = 15;
-		car3.capacity = 4;
-		car3.isAuto = true;
-		car3.isUsable = false;
+		car3.setCarID(1003);
+		car3.setPlateNo("ABC T13");
+		car3.setModel("Nissan");
+		car3.setPrice(15);
+		car3.setCapacity(4);
+		car3.setAuto(true);
+		car3.setUsable(false);
 		
 		if(carManager.addCar(car1) != 0)
 			System.out.println("Car added");
