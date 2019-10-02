@@ -41,12 +41,15 @@ public class Rental
 	public long getStart(){
         return start;
     }
-	
 	public void setStart(long start) {
         this.start = start;
 	}
 	
 	//getter and setter for duration
+	public int getDuration()
+	{
+		return duration;
+	}
 	public void setDuration(int duration)
 	{
 		//duration must be positive
