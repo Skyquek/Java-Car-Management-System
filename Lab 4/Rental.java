@@ -1,20 +1,23 @@
-public class Rental
+public class Rental extends Model
 {
-	private int rentalID;
+	//private int rentalID;
 	private Car car;
 	private Customer customer;
 	private long start;
 	private int duration; //number of hour
 	private double total;
 
+	public Rental(int rentalID)
+	{
+		//this.rentalID = rentalID;
+		super(rentalID);
+	}
+
 	//getter and setter for rentalID
 	public int getRentalID()
 	{
-		return rentalID;
-	}
-	public void setRentalID(int rentalID)
-	{
-		this.rentalID = rentalID;
+		//return rentalID;
+		return uniqueID;
 	}
 
 	//getter and setter for carID

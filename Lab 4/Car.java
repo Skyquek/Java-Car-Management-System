@@ -1,6 +1,6 @@
-public class Car
+public class Car extends Model
 {
-	private int carID; //done
+	//private int carID; 
 	private String plateNo; //done
 	private String model; //done
 	private double price; //done
@@ -8,14 +8,18 @@ public class Car
 	private boolean auto; //done
 	private boolean usable; //done
 
-	public int getCarID()
+	public Car(int carID)
 	{
-		return carID;
+		//this.carID = carID;
+		super(carID);
 	}
 
-	public void setCarID(int carID)
+	// option 1: delete this method but replace calls to getUniqueID
+	// option 2: repalce to uniqueID
+	public int getCarID()
 	{
-		this.carID = carID;
+		//return carID;
+		return uniqueID;
 	}
 
 	public String getPlateNo()
