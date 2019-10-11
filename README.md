@@ -1,18 +1,15 @@
 # Object Oriented Programming Lab
 UTeM OOP lab
 
-Environment:
+# Environment:
 JDK 13
 Windows 10
 
-Command: 
+# Commands
 
-#Command to generate class file
+## To generate class file
 javac *.java 
 
-#Command to run main class  
+## To run main class  
 java HelloWorld 
-
-
-
 
