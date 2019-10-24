@@ -1,3 +1,5 @@
+package model;
+
 public class Car extends Model
 {
 	//private int carID; 
@@ -14,8 +16,8 @@ public class Car extends Model
 		super(carID);
 	}
 
-	// option 1: delete this method but replace calls to getUniqueID
-	// option 2: repalce to uniqueID
+	// Option 1: delete this method but replace calls to getUniqueID
+	// Option 2: repalce to uniqueID
 	public int getCarID()
 	{
 		//return carID;

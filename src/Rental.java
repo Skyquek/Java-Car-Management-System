@@ -1,6 +1,6 @@
+package model;
 public class Rental extends Model
 {
-	//private int rentalID;
 	private Car car;
 	private Customer customer;
 	private long start;

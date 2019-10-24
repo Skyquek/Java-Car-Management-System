@@ -1,7 +1,11 @@
+package controller.manager;
+
+import model.Car;
+
 public class CarManager
 {
 	private Car[] cars; // Save all the cars inside the array named Car[]
-	private int count; 
+	//private int count; 
 	
 	//constructor
 	public CarManager(int length)
