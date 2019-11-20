@@ -51,9 +51,12 @@ public class ManageCarsDialog extends JDialog implements ActionListener {
 	}
 	
 	@Override
-	public void actionPerformed(ActionEvent arg0) {
+	public void actionPerformed(ActionEvent event) {
 		// TODO Auto-generated method stub
+		Object source = event.getSource();
 		
+		if (source == btnAddCar)
+			new AddCarDialog(this);
 	}
 
 }
